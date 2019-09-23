@@ -57,12 +57,8 @@
     ],
     "x-servers": [
         {
-            "url": "//petstore.swagger.io/v2",
+            "url": "//api-billing.slc-iq.com",
             "description": "Default server"
-        },
-        {
-            "url": "//petstore.swagger.io/sandbox",
-            "description": "Sandbox server"
         }
     ],
     "schemes": [
