@@ -12,7 +12,6 @@
         "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
       }
     },
-    "hos": "petstore.swagger.io",
     "paths": {
       "/section/:id": { 
           "get": {
@@ -54,6 +53,16 @@
         {
             "name": "movie",
             "description": "movie and series names"
+        }
+    ],
+    "x-servers": [
+        {
+            "url": "//petstore.swagger.io/v2",
+            "description": "Default server"
+        },
+        {
+            "url": "//petstore.swagger.io/sandbox",
+            "description": "Sandbox server"
         }
     ],
     "schemes": [
