@@ -18,6 +18,12 @@
       "/moviedetails/:key": {},
       "/seriesdetails/:key": {}
     },
+    "tags": [
+        {
+            "name": "movie",
+            "description": "movie and series names"
+        },
+    ],
     "schemes": [
       "https",
       "http"
