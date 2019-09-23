@@ -12,6 +12,7 @@
         "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
       }
     },
+    "hos": "petstore.swagger.io",
     "paths": {
       "/section/:id": { 
           "get": {
