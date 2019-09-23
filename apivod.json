@@ -1,0 +1,25 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "elmisk vod api doc",
+      "version": "0.1",
+      "title": "vod Plex API",
+      "contact": {
+        "email": "info@elmisk.com"
+      },
+      "license": {
+        "name": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    },
+    "paths": {
+      "/section/:id": { },
+      "/search/:keyword/": {},
+      "/moviedetails/:key": {},
+      "/seriesdetails/:key": {}
+    },
+    "schemes": [
+      "https",
+      "http"
+    ]
+  }
