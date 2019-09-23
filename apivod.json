@@ -13,7 +13,38 @@
       }
     },
     "paths": {
-      "/section/:id": { },
+      "/section/:id": { 
+          "get": {
+              "tags": [
+                  "movie"
+              ],
+              "summary": "moive and series by id",
+              "operation": "requestSectionList",
+              "produces": [
+                "application/json"
+              ],
+              "parameters": [
+                  {
+                      "name": "id",
+                      "in": "query",
+                      "description": "id value to get movie or series based on id",
+                      "required": true,
+                      "type": "int"
+                  }
+              ],
+              "responses": {
+                  "200": {
+                      "description": "successful operation",
+                      "schema": {
+                          "type": "array"
+                      }
+                  },
+                  "400": {
+                        "description": "invalid id value"
+                  }
+              }
+          }
+      },
       "/search/:keyword/": {},
       "/moviedetails/:key": {},
       "/seriesdetails/:key": {}
@@ -22,7 +53,7 @@
         {
             "name": "movie",
             "description": "movie and series names"
-        },
+        }
     ],
     "schemes": [
       "https",
